@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balonu Yakala (Beta)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+</head>
+<body>
+    
+    <div class="game-area">
+        <p id="counter"></p>
+        <div class="alert-section"> 
+            <p>lütfen oyunun zorluk seviyesini seçin</p>
+        </div>
+
+        <div class="difficulty-section">
+            <div class="button-content">
+                <button id="easyBtn">Easy</button>
+                <button id="mediumBtn">Medium</button>
+                <button id="hardBtn">Hard</button>
+            </div>
+            <p><span>Amaç:</span> Balona tıklamak. <br> <span>Sayaç:</span> Balon'un üzerine kaç defa geldiğinizi sayar. (Sayaç ne kadar düşükese skor o kadar iyidir.) <br><span>Not:</span> En iyi yöntem balon hareket ederken tıklamaktır.</p>
+        </div>
+
+        <div class="obj">
+            <p id="selectionP"></p>
+            <i id="restartBtn" class="fas fa-undo-alt"></i>
+            
+        </div>
+    </div>
+
+</body>
+</html>
+<script src="script.js"></script>
